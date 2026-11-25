@@ -10,7 +10,8 @@ config_version=5
 
 [application]
 
-config/name="kinetic-plex-godot"
+config/name="KineticPlexModel"
+run/main_scene="uid://b10avsg3blyad"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -18,10 +19,6 @@ config/icon="res://icon.svg"
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
-
-[dotnet]
-
-project/assembly_name="kinetic-plex-godot"
 
 [physics]
 
