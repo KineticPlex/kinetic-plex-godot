@@ -24,10 +24,11 @@ glow_enabled = true
 environment = SubResource("Environment_i7q2r")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=541048643]
-transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 0.9653025, 0.2611341, 0, -0.2611341, 0.9653025, 0, 0, 0)
+light_color = Color(0.66340244, 0.8780164, 0.99999994, 1)
 shadow_enabled = true
 
 [node name="Cube" parent="." unique_id=638022482 instance=ExtResource("1_7ufek")]
 
 [node name="Camera3D" type="Camera3D" parent="Cube" unique_id=1740305250]
-transform = Transform3D(0.7022004, -0.35758063, 0.6156709, 0, 0.86473143, 0.5022346, -0.7119793, -0.35266933, 0.60721475, 3.1889424, 2.601385, 3.1451428)
+transform = Transform3D(0.9998143, 0.0054408726, -0.018488916, -0.0018537204, 0.9820244, 0.18874517, 0.019183503, -0.18867584, 0.98185205, -0.14739674, 2.1308417, 6.5832243)
