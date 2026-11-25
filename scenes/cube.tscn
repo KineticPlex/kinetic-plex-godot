@@ -10,8 +10,12 @@ ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
 sky_material = SubResource("ProceduralSkyMaterial_7ufek")
 
 [sub_resource type="Environment" id="Environment_i7q2r"]
-background_mode = 2
+background_mode = 1
+background_color = Color(0.015201659, 0.18906403, 0.15226918, 1)
 sky = SubResource("Sky_8viuf")
+ambient_light_source = 2
+ambient_light_color = Color(1, 1, 1, 1)
+ambient_light_energy = 0.1
 glow_enabled = true
 
 [node name="Node3D" type="Node3D" unique_id=1980102387]
